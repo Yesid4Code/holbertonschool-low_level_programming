@@ -1,13 +1,11 @@
-#include "string.h"
-#include "unistd.h"
+#include <string.h>
+#include <unistd.h>
 /**
- * main - main
- * Return: 1
+ * main - main .
+ * Return: error 2.
  */
 int main(void)
 {
-int printme;
-printme = strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", printme);
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 return (1);
 }
