@@ -2,7 +2,7 @@
 #include "string.h"
 #include "unistd.h"
 /**
- * main - main Block
+ * main - main
  * Return: 1
  */
 int main(void)
