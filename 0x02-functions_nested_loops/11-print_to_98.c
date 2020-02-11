@@ -23,7 +23,7 @@ printf("\n");
 }
 else
 {
-for (n; n > 98; n--)
+for (n; n >= 98; n--)
 {
 printf("%i", n);
 if (n != 98)
