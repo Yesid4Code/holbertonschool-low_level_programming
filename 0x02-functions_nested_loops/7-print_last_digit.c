@@ -7,9 +7,9 @@
 int print_last_digit(int a)
 {
 char x;
-if (a < 0)
-a = a * -1;
 x = a % 10;
+if (x < 0)
+x = x * -1;
 _putchar(x + '0');
 return (x);
 }
