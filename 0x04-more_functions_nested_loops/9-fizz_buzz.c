@@ -4,7 +4,7 @@
  *main - program to descart programmers
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -28,4 +28,5 @@ void main(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
