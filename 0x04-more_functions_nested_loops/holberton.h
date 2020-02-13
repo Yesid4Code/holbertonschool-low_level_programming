@@ -9,4 +9,4 @@ void print_line(int c);
 void print_diagonal(int c);
 void print_square(int c);
 void print_triangle(int c);
-
+void print_number(int c);
