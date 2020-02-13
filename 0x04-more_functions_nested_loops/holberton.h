@@ -7,5 +7,6 @@ void print_most_numbers(void);
 void more_numbers(void);
 void print_line(int c);
 void print_diagonal(int c);
-void print_square(int size);
+void print_square(int c);
+void print_triangle(int c);
 
