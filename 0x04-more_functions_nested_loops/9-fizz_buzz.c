@@ -2,6 +2,7 @@
 
 /**
  *main - program to descart programmers
+ *Return: nothing
  */
 
 int main(void)
