@@ -17,8 +17,10 @@ char *rot13(char *p)
 		for (j = 0; ord[j] != '\0'; j++)
 		{
 			if (p[i] == ord[j])
-			p[i] = des[j];
-				/*break;*/
+			{
+				p[i] = des[j];
+				break;
+			}
 		}
 	}
 	return (p);
