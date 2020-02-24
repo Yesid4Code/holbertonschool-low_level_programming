@@ -9,12 +9,11 @@
 
 unsigned int _strspn(char *s, char *ac)
 {
-	int i, j;
-	unsigned int c = 0;
+	unsigned int i, j, c = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i]; i++)
 	{
-		for (j = 0; ac[j] != '\0'; j++)
+		for (j = 0; ac[j]; j++)
 		{
 			if (s[i] == ac[j])
 			{
