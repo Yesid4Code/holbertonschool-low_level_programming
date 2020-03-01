@@ -9,7 +9,7 @@
 
 int main(int ac, char *av[])
 {
-	/*(void) ac;*/
+	(void) ac;
 	printf("%d\n", (ac - 1));
 	return (0);
 }
