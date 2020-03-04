@@ -12,11 +12,17 @@ char *str_concat(char *s1, char *s2)
 	int i = 0, j = 0, k;
 	char *la;
 
-	while (s1[i] != '\0')
-		i++;
-	while (s2[j] != '\0')
+	if (s1)
+	{
+		while (s1[i] != '\0')
+			i++;
+	}
+	if (s2)
+	{
+		while (s2[j] != '\0')
+			j++;
 		j++;
-	j++;
+	}
 
 	la = malloc((i + j) * sizeof(char)); /*reserve the space of memory*/
 
