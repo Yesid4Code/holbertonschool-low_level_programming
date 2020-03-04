@@ -1,0 +1,8 @@
+*-main.c
+*.o
+*~
+_putchar.c
+*#
+*.out
+*-main_*.c
+copiall
