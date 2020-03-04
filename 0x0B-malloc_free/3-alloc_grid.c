@@ -10,17 +10,18 @@
 
 int **alloc_grid(int w, int h)
 {
-	int i = 0, j = 0, k;
+	int i, j;
 	int **la;
 
 	if (w <= 0 || h <= 0)
 		return (NULL);
 
 	la = malloc(h * sizeof(int *));
-
+	if (la == NULL)
+		return (NULL);
 	for (i = 0; i < h; i++)
 	{
-		la[i] = malloc(w * sizeof(int *));
+		la[i] = malloc(w * sizeof(int));
 		if (la[i] == NULL)
 		{
 			for (j = 0; j < i; j++)
