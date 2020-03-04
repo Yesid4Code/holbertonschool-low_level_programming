@@ -22,8 +22,6 @@ char *str_concat(char *s1, char *s2)
 
 	if (!la)
 		return (NULL);
-	if (!s1 || !s2)
-		return (NULL);
 
 	for (k = 0; k < (i + j); k++)
 	{
