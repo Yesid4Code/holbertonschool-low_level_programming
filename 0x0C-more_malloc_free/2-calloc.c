@@ -18,7 +18,7 @@ void *_calloc(unsigned int nm, unsigned int sz)
 	p = malloc(sz * nm);
 	if (p == NULL)
 		return (NULL);
-	for (i = 0; i < nm; i++)
+	for (i = 0; i <= nm; i++)
 		p[i] = 0;
 	return (p);
 }
