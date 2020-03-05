@@ -20,6 +20,5 @@ void *_calloc(unsigned int nm, unsigned int sz)
 		return (NULL);
 	for (i = 0; i < nm; i++)
 		p[i] = 0;
-	p = (void *)p;
 	return (p);
 }
