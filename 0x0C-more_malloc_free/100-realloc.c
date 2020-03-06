@@ -12,7 +12,7 @@
 
 void *_realloc(void *p, unsigned int os, unsigned int ns)
 {
-	int i;
+	unsigned int i;
 	char *op = p, *np;
 
 	if (ns == os)
