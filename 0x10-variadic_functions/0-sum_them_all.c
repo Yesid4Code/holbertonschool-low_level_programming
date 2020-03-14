@@ -3,7 +3,6 @@
 /**
  * sum_them_all - function that returns the sum of all its parameters.
  * @n: constant variable.
- *
  * Return: the sum of all numbers.
  */
 
