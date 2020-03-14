@@ -1,9 +1,9 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
 #include <stdarg.h>
-#include <stdio.h>
+#include <stdlib.h>
 /**
- * struct listoftype - 
+ * struct listoftype - Struct listoftype.
  * @op: The operator.
  * @f:  The function associated.
  */
