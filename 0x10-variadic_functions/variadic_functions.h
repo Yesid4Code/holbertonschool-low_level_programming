@@ -2,6 +2,7 @@
 #define VARIADIC_FUNCTIONS_H
 #include <stdarg.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * struct listoftype - Struct listoftype.
  * @op: The operator.
