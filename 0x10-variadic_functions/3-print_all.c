@@ -66,7 +66,7 @@ void print_all(const char * const format, ...)
 		j = 0;
 		while (wprint[j].op != NULL)
 		{
-			if (format[i] == wprint[j].op[0])
+			if (format[i] == *wprint[j].op)
 			{
 				printf("%s", sepa);
 				wprint[j].f(list);
