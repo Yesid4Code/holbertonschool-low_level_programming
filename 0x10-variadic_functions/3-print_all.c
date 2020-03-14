@@ -36,10 +36,9 @@ void print_string(va_list str)
 {
 	char *chak = va_arg(str, char*);
 
-	if (chak != NULL)
-		printf("%s", chak);
-	else
+	if (chak == NULL)
 		printf("(nil)");
+	printf("%s", chack);
 }
 
 /**
@@ -66,16 +65,16 @@ void print_all(const char * const format, ...)
 		j = 0;
 		while (wprint[j].op != NULL)
 		{
-			if (format[i] == *wprint[j].op)
+			if (format[i] == *(wprint[j].op))
 			{
 				printf("%s", sepa);
 				wprint[j].f(list);
+				sepa = ", ";
 				break;
 			}
 			j++;
 		}
 		i++;
-		sepa = ", ";
 	}
 	va_end(list);
 	printf("\n");
