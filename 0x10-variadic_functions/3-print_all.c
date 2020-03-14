@@ -37,8 +37,8 @@ void print_string(va_list str)
 	char *chak = va_arg(str, char*);
 
 	if (chak == NULL)
-		printf("(nil)");
-	printf("%s", chack);
+		chak = "(nil)";
+	printf("%s", chak);
 }
 
 /**
