@@ -1,4 +1,4 @@
-<img src="images/Holberton%20School.png" weigth="100%" height="150" align="center">
+<img src="../images/Holberton%20School.png" weigth="100%" height="150" align="center">
 
 # 0x13. C - More singly linked lists
 
