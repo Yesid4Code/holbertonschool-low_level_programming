@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * reverse_listin - function that reverses a list.
+ * reverse_listint - function that reverses a list.
  * @head: pointer to the head of the list.
  *
  * Return: the new head.
@@ -12,7 +12,7 @@ listint_t *reverse_listint(listint_t **head)
 
 	if (head == NULL)
 		return (NULL);
-	while(*head)
+	while (*head)
 	{
 		aux = (*head)->next;
 		(*head)->next = tmp;
