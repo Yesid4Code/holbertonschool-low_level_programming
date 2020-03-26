@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-/**5A
+/**
  * _pow - function that multiply a number n times.
  * @n: tue number of times to be multiply.
  *
