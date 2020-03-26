@@ -9,7 +9,7 @@
 unsigned int _pow(const int n)
 {
 	int i = 0;
-	unsigned int p = 2;
+	unsigned int p = 1;
 
 	while (i < n)
 	{
