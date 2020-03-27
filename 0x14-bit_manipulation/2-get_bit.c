@@ -10,6 +10,7 @@
 int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned long int mov, i = 0;
+	int pos = 0;
 
 	if (index > 63)
 		return (-1);
@@ -18,11 +19,11 @@ int get_bit(unsigned long int n, unsigned int index)
 		mov = (n >> 1);
 		mov <<= 1;
 		if (n != mov && i == index)
-			return (1);
+			pos = 1;
 		else if (i == index)
-			return (0);
+			pos = 0;
 		n >>= 1;
 		i++;
 	}
-	return (-1);
+	return (pos);
 }
