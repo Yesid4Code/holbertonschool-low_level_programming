@@ -11,7 +11,9 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned long int mov, i = 0;
 
-	while (n != 0 && index <= (sizeof(n) * 8))
+	if (index > 63)
+		return (-1);
+	while (n != 0)
 	{
 		mov = (n >> 1);
 		mov <<= 1;
