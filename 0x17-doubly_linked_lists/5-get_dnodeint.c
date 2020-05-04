@@ -9,7 +9,7 @@
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	int i = 0; /* Index to go through the list */
+	unsigned int i = 0; /* Index to go through the list */
 
 	while (head)
 	{
