@@ -11,8 +11,6 @@ void hash_table_delete(hash_table_t *ht)
 
 	if (ht && ht->array)
 	{
-		printf("{");
-
 		while (index < ht->size)
 		{
 			tmp = ht->array[index];
