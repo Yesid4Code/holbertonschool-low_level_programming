@@ -4,13 +4,12 @@
  * hash_table_delete - function that free memory.
  * @ht: pointer to the hash table.
  */
-void hash_table_delete(const hash_table_t *ht)
+void hash_table_delete(hash_table_t *ht)
 {
 	unsigned long int index = 0;
-	hash_node_t *tmp = NULL;
-	int flag = 0;
+	hash_node_t *tmp = NULL, *aux = NULL;
 
-	if (ht)
+	if (ht && ht->array)
 	{
 		printf("{");
 
@@ -27,7 +26,7 @@ void hash_table_delete(const hash_table_t *ht)
 			}
 			index++;
 		}
-		free(tmp->array);
+		free(ht->array);
 		free(ht);
 	}
 }
