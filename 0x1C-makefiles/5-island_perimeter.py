@@ -19,7 +19,7 @@ def island_perimeter(grid):
     peri = 0
     side = 0
     for row in range(len(grid)):  # size, number of rows.
-        for col in (range(grid[0])):  # size, number of columns.
+        for col in range(len(grid[0])):  # size, number of columns.
             if grid[row][col] == 1:  # find a part of the island "1"
                 peri += 1
                 if col > 0 and grid[row][col - 1] == 1:
