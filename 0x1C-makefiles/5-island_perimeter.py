@@ -16,6 +16,8 @@ def island_perimeter(grid):
         The island doesn’t have “lakes”
             (water inside that isn’t connected to the water around the island).
     """
+    peri = 0
+    side = 0
     for row in range(len(grid)):  # size, number of rows.
         for col in (range(grid[0])):  # size, number of columns.
             if grid[row][col] == 1:  # find a part of the island "1"
