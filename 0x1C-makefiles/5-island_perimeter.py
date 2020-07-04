@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" Perimeter. """
+
+
 def island_perimeter(grid):
     """
     Function to find the perimeter of the island.
@@ -17,7 +20,7 @@ def island_perimeter(grid):
         for col in (range(grid[0])):  # size, number of columns.
             if grid[row][col] == 1:  # find a part of the island "1"
                 peri += 1
-                if col > 0 and grid[row][col - 1] ==1:
+                if col > 0 and grid[row][col - 1] == 1:
                     side += 1
                 if row > 0 and grid[row - 1][col] == 1:
                     side += 1
