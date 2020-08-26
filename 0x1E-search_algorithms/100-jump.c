@@ -14,8 +14,6 @@ int jump_search(int *array, size_t size, int value)
 
 	if (!array)
 		return (-1);
-	/*printf("Value checked array[{}] = [{}]", left, array[left]);*/
-	// while (pivot < size && array[left] < value)
 	while (left < size)
 	{
 		printf("Value checked array[%lu] = [%d]\n", left, array[left]);
