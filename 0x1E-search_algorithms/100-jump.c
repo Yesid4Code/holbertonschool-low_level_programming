@@ -22,9 +22,9 @@ int jump_search(int *array, size_t size, int value)
 		left = pivot;
 		pivot = pivot + sqrt(size);
 	}
-	printf("Value found between indexes [%lu] and [%lu]\n", left, pivot);
-	if (pivot >= size)
+	if (left >= size)
 		return (-1);
+	printf("Value found between indexes [%lu] and [%lu]\n", left, pivot);
 	while (left < size)
 	{
 		printf("Value checked array[%lu] = [%d]\n", left, array[left]);
