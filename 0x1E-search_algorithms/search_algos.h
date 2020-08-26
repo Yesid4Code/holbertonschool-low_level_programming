@@ -3,6 +3,7 @@
 
 /* HEADERS */
 #include <stdio.h>
+#include <math.h>
 
 /* DATA STRUCTURES*/
 /* PROTOTYPES OF FUNCTIONS */
