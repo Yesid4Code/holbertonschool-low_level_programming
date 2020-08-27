@@ -6,7 +6,7 @@
  * @size:  Number of elements in the array.
  * @value: Value to search for.
  *
- * Return: The index where the value is located.
+ * Return: Pointer to the node of the list where value is located.
  */
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {
@@ -25,9 +25,7 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 			break;
 		idx = jump;
 		jump = jump + sqrt(size);
-
 		head = temp;
-
 	}
 	printf("Value found between indexes [%lu] and [%lu]\n", idx, jump);
 	while (head->next)
