@@ -26,10 +26,10 @@ int advanced_binary(int *array, size_t size, int value)
 		m = (size - 1) / 2;
 		if (array[m] == value && array[m - 1] != value)
 			return (m);
-		if (value < array[m])
-			return (advanced_binary(array, m - 1, value));
+		if (value <= array[m])
+			return (advanced_binary(array, m + 1, value));
 		else if (value > array[m])
-			return (advanced_binary(array + m + 1, (size - m - 1) , value));
+			return (advanced_binary(array + m + 1, (size - m - 1), value));
 	}
 	return (-1);
 }
