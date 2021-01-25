@@ -1,4 +1,6 @@
-### General objectives.
+## 0x1C. C - Makefiles
+The objective of this project is to understand the following items:
+
 * What are make, Makefiles
 * When, why and how to use Makefiles
 * What are rules and how to set and use them

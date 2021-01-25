@@ -1,7 +1,6 @@
-# 0x1A-hash_tables
-
-## About
+## 0x1A. C - Hash tables
 The objective of this project is to understand the following items:
+
 * What is a hash function
 * What makes a good hash function
 * What is a hash table, how do they work and how to use them
@@ -9,4 +8,3 @@ The objective of this project is to understand the following items:
 * What are the advantages and drawbacks of using hash tables
 * What are the most common use cases of hash tables
 
-## Tasks
