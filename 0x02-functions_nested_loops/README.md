@@ -1,5 +1,8 @@
-<<<<<<< HEAD
-Describe all content please. Allll
-=======
-
->>>>>>> f25d09edf89eecf36a85445e5379d10e77cac52e
+## Learning Objectives
+With this project I expect to understand the following concepts:
+* What are nested loops and how to use them.
+* What is a function and how do you use functions.
+* What is the difference between a declaration and a definition of a function.
+* What is a prototype Scope of variables.
+* What are the gcc flags -Wall -Werror -pedantic -Wextra.
+* What are header files and how to to use them with #include

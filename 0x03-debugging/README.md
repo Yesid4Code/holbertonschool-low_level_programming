@@ -1,5 +1,4 @@
-sdsdsd<<<<<<< HEAD
-Describe the content of this subdirectory
-=======
-
->>>>>>> 0072a3067d7b93522a34c0bf773b73fae7105d02
+## Learning Objectives
+* What is debugging.
+* What are some methods of debugging manually.
+* How to read the error messages 

@@ -1,2 +1,1 @@
-Describe all subdirectory here please.
-61166e4
+0x01. C - Variables, if, else, while
